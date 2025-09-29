@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+        font-size: 40px;
+    }
+
+    ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    li {
+        justify-content: center;
+        background-color: rgb(231, 231, 231);
+        padding: 5px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        margin-left: 20px;
+    }
+
+    .second-player, .first-player {
+        margin-top: 40px;
+    }
+
+    #red {
+        color: rgb(145, 25, 25);
+    }
+
+</style>
+
+<body>
+    <a href="index.html">back</a>
+
+    <div class="cards">
+        <div class="first-player">
+            <h2>First player</h2>
+            <ul>
+                <li>2&clubs;</li>
+                <li id="red">9&hearts;</li>
+                <li id="red">6&hearts;</li>
+                <li id="red">A&diams;</li>
+                <li>Q&spades;</li>
+                <li>J&clubs;</li>
+            </ul>
+        </div>
+        <div class="second-player">
+            <h2>Second player</h2>
+            <ul>
+                <li id="red">3&hearts;</li>
+                <li>A&clubs;</li>
+                <li>10&clubs;</li>
+                <li id="red">K&diams;</li>  
+                <li>8&spades;</li>
+                <li id="red">3&hearts;</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
