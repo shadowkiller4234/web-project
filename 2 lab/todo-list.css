@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* li:hover {
+    /* list-style: ☑☐; */
+
+ul {
+    padding: 10px, 0px;
+    background-color: rgb(165, 204, 219);
+    font-size: 25px;
+}
+.todo-item {
+    padding: 10px;
+    list-style-position: inside;
+    background-color: rgb(165, 204, 219);
+    list-style-image: url(./icons/icons8-пустой-чекбокс-16\ \(2\).png);
+    align-items: center;
+}
+
+.todo-item:nth-child(even) {
+    background-color: rgb(186, 197, 255);
+}
+
+.todo-item::after {
+    content: url(./icons/icons8-умножение-16.png);
+    position: relative;
+    left: 10px;
+}
+
+
+.container .todo-item.active {
+    list-style-image: url(./icons/icons8-отмеченный-чекбокс-16.png);
+    background-color: rgb(255, 255, 208);
+    text-decoration: line-through;
+}
+
+.container {
+    margin: 50px 0px 0px 50px;
+    max-width: 900px;
+}
+
