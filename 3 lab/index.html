@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Table</title>
+</head>
+    <body>
+        <div class="container">
+            <table class="table">
+                <tr>
+                    <th>№</th>
+                    <th>Ім'я</th>
+                    <th>E-mail</th>
+                    <th>Стать</th>
+                    <th>Дата</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ярослав</td>
+                        <td>Yaroslav@gmail.com</td>
+                        <td>Ч</td>
+                        <td>08.10.2025</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Евгеній</td>
+                        <td>Evgeniy@gmail.com</td>
+                        <td>Ч</td>
+                        <td>11.10.2025</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Джек</td>
+                        <td>Jack@gmail.com</td>
+                        <td>Ч</td>
+                        <td>09.10.2025</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Луна</td>
+                        <td>Luna@gmail.com</td>
+                        <td>Ж</td>
+                        <td>24.10.2025</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Боб</td>
+                        <td>Bob@gmail.com</td>
+                        <td>Ч</td>
+                        <td>30.10.2025</td>
+                    </tr>
+                </tbody>
+                <tfoot><td colspan="5">Всього: 5</td></tfoot>
+            </table>
+            <table class="schedule">
+                <thead>
+                    <tr>
+                        <th rowspan="2">День</th>
+                        <th rowspan="2">Пара</th>
+                        <th rowspan="2">Тиждень</th>
+                        <th>KH-421</th>    
+                        <th rowspan="2">Ауд 1</th>
+                        <th rowspan="2">Ауд 2</th>
+                    </tr>
+                    <tr>
+                        <th>Марціяш Г.Я.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td rowspan="9" class="monday">Понеділок</td></tr> 
+                    <tr>
+                        <td class="para">3</td>
+                        <td class="week">I</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="para">4</td>
+                        <td class="week">II</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="para">5</td>
+                        <td class="week">I</td>
+                        <td>Технології захисту інформації</td>
+                        <td rowspan="2">321</td>
+                        <td rowspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="week">II</td>
+                        <td>радчик</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="para">6</td>
+                        <td class="week">I</td>
+                        <td>Адміністрування ПСК</td>
+                        <td rowspan="2">102</td>
+                        <td rowspan="2"></td>   
+                    </tr>
+                    <tr>
+                        <td class="week">II</td>
+                        <td>Сербін</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="para">7</td>
+                        <td class="week">I</td>
+                        <td>Розробка КЗС</td>
+                        <td rowspan="2">101</td>
+                        <td rowspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="week">II</td>
+                        <td>Слободян</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="messages">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Created at</th>
+                        <th>Size</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1078</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Big</b></td>
+                        <td class="num"><b>4</b></td>
+                    </tr>
+                    <tr>
+                        <td>#2034</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Small</b></td>
+                        <td class="num"><b id="g">3</b></td>
+                    </tr>
+                    <tr>
+                        <td>#2165</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Middle</b></td>
+                        <td class="num"><b id="r">1</b></td>
+                    </tr>
+                    <tr>
+                        <td>#2214</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Over</b></td>
+                        <td class="num"><b id="b">5</b></td>
+                    </tr>
+                    <tr>
+                        <td>#2345</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Big</b></td>
+                        <td class="num"><b>4</b></td>
+                    </tr>
+                    <tr>
+                        <td>#3377</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Middle</b></td>
+                        <td class="num"><b id="g">3</b></td>
+                    </tr>
+                    <tr>
+                        <td>#3508</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Small</b></td>
+                        <td class="num"><b id="o">2</b></td>
+                    </tr>   
+                    <tr>
+                        <td>#3544</td>
+                        <td>Allow emailling within the system</td>
+                        <td>Development</td>
+                        <td>January 22, 2024</td>
+                        <td class="size"><b>Small</b></td>
+                        <td class="num"><b id="r">1</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
